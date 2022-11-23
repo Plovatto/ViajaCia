@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@media(max-width:800px){
+    
+body{
+    background: linear-gradient(180deg, #D3A7FF 0%, rgba(237, 220, 255, 0.738309) 99.24%, rgba(211, 167, 255, 0.723958) 99.99%, rgba(211, 167, 255, 0) 100%);
+height: 100vh;
+width: 50vw;
+
+
+}
+
+
+
+
+header{
+    
+    width: 100%;
+    height: 50vh ;
+}
+
+#cancelar{
+    width: 12vw;
+    height: 5vh;
+    opacity: 110%;
+    position: absolute;
+   background-color: #D3A7FF;
+   border: none;
+}
+#cancel{
+    opacity: 100%;
+    width: 8vw;
+    height: 6vh;
+    position: absolute;
+    left: 1vw;
+  bottom: 0.1vh;
+
+   
+}
+#viajacia{
+    width: 40vw;
+    position: relative;
+    top: 8vh;
+    left: 25vw;
+}
+
+#aviao{
+position: relative;
+bottom: 30vh;
+left: 8vw;
+width: 80vw;
+}
+
+
+.respo{
+    height: 5.2vh;
+width: 78vw;
+margin: 1vh;
+    background-color: #ffff;
+    opacity: 80%;
+    border: 1px solid #B76FFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+position: relative;
+bottom: 31vh;
+left: 6vw;
+
+}
+.resp{
+    height: 5.2vh;
+width: 78vw;
+margin: 1vh;
+    background-color: #ffff;
+    opacity: 80%;
+    border: 1px solid #B76FFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+position: relative;
+bottom: 31vh;
+left: 6vw;
+
+}
+
+.respon{
+    height: 4.5vh;
+width: 78vw;
+margin: 1vh;
+    background-color: #ffff;
+    opacity: 80%;
+    border: 1px solid #B76FFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+position: relative;
+bottom: 34vh;
+left: 6vw;
+z-index: 2;
+}
+
+.respond{
+    height: 4.5vh;
+width: 78vw;
+margin: 1vh;
+    background-color: #ffff;
+    opacity: 80%;
+    border: 1px solid #B76FFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+position: relative;
+bottom: 30vh;
+left: 6vw;
+right: 1vw;
+
+}
+
+.respond::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.7vh;
+    font-weight: 300;
+   position: relative;
+   top: 0.2vh;
+   left: 16vw;
+   color: #5B5858;
+}
+
+
+
+.respon::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.7vh;
+    font-weight: 300;
+   position: relative;
+   top: 0.2vh;
+   left: 16vw;
+   color: #5B5858;
+}
+
+#google{
+width:5vw;
+position: relative;
+bottom: 25vh;
+left: 10vw;
+z-index: 4;
+}
+
+#facebook{
+    width:5vw;
+    position: relative;
+    bottom: 28.7vh;
+    left: 10vw;
+   z-index: 4;
+}
+
+
+input::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.1vh;
+   padding-left: 1vh;
+   position: relative;
+   top: 0.3vh;
+   color: #8B8B8B;
+   font-weight: 300;
+}
+
+#olho{
+    width: 5.7vw;
+    position: relative;
+    bottom: 36.2vh;
+    
+    left: 78.5vw;
+}
+
+#entrar{
+    width: 23vw;
+    height: 4vh;
+    background: #B788E6;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+border: none;
+position: relative;
+left:30vw ;
+bottom: 29vh;
+
+
+}
+a{
+    font-family: 'Inter', sans-serif;
+ text-decoration: none; 
+ font-size: 2vh;
+ color: #2F0756;
+ font-weight: 300;
+}
+
+h3{
+    color: #711AC7;
+    position: relative;
+    font-weight: 300;
+bottom: 27vh;
+left: 46vw;
+font-size: 1.8vh;
+
+}
+h4{
+    color: #711AC7;
+    position: relative;
+    bottom: 33vh;
+    left: 42.7vw;
+font-size: 1.8vh;
+font-weight: 300;
+
+}
+}
